@@ -1,14 +1,13 @@
-// Write a program to print the first N natural numbers.
 #include <iostream>
 using namespace std;
 int main()
 {
-    int i, n;
+    int n;
     cout << "Enter Number: ";
     cin >> n;
-    for (i = 1; i <= n; i++)
+    for (int i = 1; i <= n; i++)
     {
-        cout << i << endl;
+        cout << (2 * i) - 1 << endl;
     }
     return 0;
 }
